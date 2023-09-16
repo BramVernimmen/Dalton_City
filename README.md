@@ -14,7 +14,7 @@ This game would've been fairly easy to recreate without multiplayer, but I like 
 This entire project will be done in Unreal Engine 5+. <br/>
 As of writing this, the project was started in UE 5.2, yet 5.3 got released recently and I'm still thinking if I'd update it or not. <br/>
 
-<img src="Readme/Images/Board.png" alt="Board Image" width="650" /> 
+<img src="ReadMe/Images/Board.png" alt="Board Image" width="650" /> 
 
  ## Before you play
  Keep in mind that this game is currently not finished yet. <br/>
@@ -35,7 +35,7 @@ These are the mechanics that are already in the game, which are also in the real
 Whenever you land on a trade tile and have enough money to buy this, and option will appear that lets you inspect this tile and gives you the option to buy it. <br/>
 The price of this tile is also mentioned on the info card. <br/>
 
-<img src="Readme/Images/Buy.png" alt="Buy Image" width="650" /> 
+<img src="ReadMe/Images/Buy.png" alt="Buy Image" width="650" /> 
 
 Whenever a player is on the opposite side in Dalton City, they also get the option to buy that Trade Tile.
 
@@ -49,7 +49,7 @@ The first row will always be the cheapest, while the last row will be more expen
 The column that is selected will be decided by a dice throw. <br/>
 Just 1 dice will be thrown and whatever it lands on, take the row and column, that will be the owed sum. <br/>
 
-<img src="Readme/Gifs/Pay.gif" alt="Pay Gif" width="650" /> 
+<img src="ReadMe/Gifs/Pay.gif" alt="Pay Gif" width="650" /> 
 
 But you may notice there is not a column for a 6-roll. <br/>
 When this happens, ***Stealing Trade Tile*** will be triggered and you don't have to pay anything. <br/>
