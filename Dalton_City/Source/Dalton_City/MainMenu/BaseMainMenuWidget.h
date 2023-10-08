@@ -8,9 +8,6 @@
 #include "BaseMainMenuWidget.generated.h"
 
 
-/**
- * 
- */
 UCLASS()
 class DALTON_CITY_API UBaseMainMenuWidget : public UUserWidget
 {
@@ -19,6 +16,7 @@ class DALTON_CITY_API UBaseMainMenuWidget : public UUserWidget
 public:
 	virtual void NativeConstruct() override;
 
+	// Buttons
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
 	UButton* Play_Btn;
 	
@@ -28,6 +26,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
 	UButton* Quit_Btn;
 
+
+	// Possible next widgets to create
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TSubclassOf<UUserWidget> OptionsWidgetClass;
 
@@ -37,8 +37,10 @@ public:
 private:
 	UFUNCTION()
 	void OnPlayBtnClick();
+
 	UFUNCTION()
 	void OnOptionsBtnClick();
+
 	UFUNCTION()
 	void OnQuitBtnClick();
 
