@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "BaseMainMenuWidget.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "BaseWidgetBackButton.h"
